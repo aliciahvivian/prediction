@@ -7,8 +7,6 @@ import org.json.simple.*;
 import org.json.simple.parser.*;
 
 public class Main {
-
-
     static int daysInFuture = 5;
     static int derivatives = 2;
 
@@ -93,7 +91,7 @@ public class Main {
 //            System.out.println("------------------------------------------------------------------------");
         }
 
-        String output = "{\"new_daily_cases\":" + predictions[0] "}";
+        String output = "{\"new_daily_cases\":" + predictions[0] + "}";
     }
 
     private static float averageOf(int[] integerArray) {
